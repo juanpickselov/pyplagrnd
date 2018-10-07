@@ -11,9 +11,9 @@ try:
                             encoding='ascii')
     print('Return code: ' + str(result.returncode))
     the_output = str(result.stdout)
+    print(the_output)
 except IndexError:
     print("You most likely didn't supply an argument for the script you wanted to run.")
 except:
     print('Something bad happened')
 
-print(the_output)
