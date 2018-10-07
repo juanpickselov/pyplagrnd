@@ -7,7 +7,7 @@ def reverse_it():
         newString+=myString[zeroBasedLen - aChar]
     print(newString)
 
+
 def reverse_text():
     the_string = "honda accord"
-    the_string_list = list(the_string)
-    print(''.join(the_string_list[::-1]))
+    print(the_string[::-1])
