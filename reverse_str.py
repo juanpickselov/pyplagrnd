@@ -1,13 +1,11 @@
-def reverse_it():
-    myString = "honda accord"
-    myLen = len(myString)
+def reverse_it(my_string):
+    myLen = len(my_string)
     zeroBasedLen = myLen - 1
     newString = ''
     for aChar in range(myLen):
-        newString+=myString[zeroBasedLen - aChar]
+        newString += my_string[zeroBasedLen - aChar]
     print(newString)
 
 
-def reverse_text():
-    the_string = "honda accord"
-    print(the_string[::-1])
+def reverse_text(text_to_reverse):
+    print(text_to_reverse[::-1])
